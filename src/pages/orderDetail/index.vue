@@ -29,7 +29,7 @@
     <div style="height: 140px;background: white;display: flex;flex-direction: column;padding: 10px">
       <div style="width: 100%;height: 30px;text-align: center;line-height: 30px;color: rgb(0, 126, 226);border: 1px solid #ccc;border-radius: 5px 5px">我要点评</div>
       <div style="height: 60px;border-bottom:1px solid #ccc;font-size: 13px;color: rgb(0, 126, 226);display: flex;align-items: center;justify-content: center;">
-        3天内点评积分+50，点评传图还可抽奖！<span style="color: black;">积分规则&nbsp;</span><img src="../../../static/imgs/rule.png" style="width: 15px;height: 15px">
+        3天内点评积分+50，点评传图还可抽奖！<span style="color: black;">积分规则&nbsp;&nbsp;</span><img src="../../../static/imgs/rule.png" style="width: 15px;height: 15px">
       </div>
       <div style="text-align: center;color: rgb(0, 126, 226);height: 50px;line-height: 50px">晚些到店</div>
     </div>

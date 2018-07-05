@@ -296,13 +296,13 @@ export default {
       let id = item.id
       wx.navigateTo({
         url: '/pages/detailD/main?id=' + id
-      })      
+      })
     },
     // 跳到点评野蛮
     comment (id) {
       wx.navigateTo({
         url: '/pages/comment/main?id=' + id
-      })    
+      })
     }
   },
   mounted () {
