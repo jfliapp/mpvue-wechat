@@ -25,8 +25,8 @@ export default {
           'text': 'main'
         },
         {
-          'pagePath': 'pages/wode/main',
-          'text': 'index'
+          'pagePath': 'pages/map/main',
+          'text': 'Map'
         },
         {
           'pagePath': 'pages/collect/main',

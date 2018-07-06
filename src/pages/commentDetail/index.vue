@@ -4,7 +4,7 @@
     <div style="display: flex;flex-direction: column;background: white;padding: 20px;height: 200px;justify-content: space-around">
       <div style="display: flex;justify-content: space-between;">
         <div>房间卫生</div>
-        <div><star/></div>
+        <div><star v-model.lazy="homeStar"/></div>
       </div>
       <div style="display: flex;justify-content: space-between;">
         <div>周边环境</div>
@@ -27,9 +27,10 @@
         </div>
       </div>
     </div>
-    <div style="height: 400px">
+    <div style="height: 400px;position: relative;">
+      <div style="position: absolute;top: 0;right: 0;"><img src="../../../static/imgs/grade.png" style="width: 30px;height: 30px;"></div>
       <div style="height: 60px;padding: 20px;display: flex;align-items: center">
-        <div style="width: 60px;height: 60px;border: 1px dashed black;display: flex;justify-content: center;align-items: center;font-size: 20px;background: white">+</div>
+        <div><imgupdate></imgupdate></div>
         <div style="width: 250px;font-size: 13px;padding-left: 20px">上传图片可抽奖哦！建议上传设施、周围环境、、外观等细节照片，最多9张</div>
       </div>
       <div style="padding: 20px;">
@@ -45,15 +46,18 @@
 </template>
 <script>
   import star from '@/components/star'
+  import imgupdate from '@/components/imgupdate'
   export default {
     data () {
       return {
+        homeStar: 3,
         textValue: '',
         typeArr: ['商业出差', '朋友出游', '朋友出游', '朋友出游', '朋友出游', '朋友出游', '其他']
       }
     },
     components: {
-      star
+      star,
+      imgupdate
     }
   }
 </script>
